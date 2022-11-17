@@ -4,6 +4,7 @@
 }
 
 /* HEADER */
+
 .top-header {
     background-color: #004472;
     min-height: fit-content;
@@ -36,6 +37,10 @@
 .nav-link:hover{
     opacity: 0.7;
     color: unset;
+}
+
+.container{
+    margin-left: 2vw;
 }
 
 .nav-settings {
@@ -76,6 +81,7 @@
 /*HOME*/
 
 .home{
+    margin-top: 15%;
     background-image: url(/img/envases-reutilizables.jpg),linear-gradient(180deg,#29c4a9 0%,#2b87da 100%);
     background-color: #7EBEC5;
     background-repeat: no-repeat;
@@ -334,4 +340,121 @@
 
 .choose-us .tariff svg path{
     color: #e91d62;
+}
+
+
+/*SECCION PLANE*/
+
+.plane{
+    background-color: #4d6cf1;
+    padding: 0 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plane::before{
+    content: '';
+    background: url(/img/footer-plane-1.png);
+    position: absolute;
+    width: 450px;
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plane .plane-text {
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    padding: 40px 0;
+}
+
+.plane .plane-text p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/*FOOTER*/
+
+.footer .footer-main{
+    background-color: #1d2939e0;
+}
+
+.footer-main .footer-container{
+    width: 80vw;
+    margin: auto;
+    padding: 8% 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .footer-widget{
+    width: 20.875%;
+    margin-right: 5.5%;
+    margin-bottom: 5.5%;
+    font-size: 16px;
+    color: #a2afbf;
+}
+
+.footer-widget .plane-img {
+    margin-bottom: 16px;
+}
+
+.footer-widget .text-widget{
+    padding-bottom: 16px;
+}
+
+.footer-widget .title{
+    font-size: 18px;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.text-widget a{
+    color: #a2afbf;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.footer .footer-log{
+    background-color: #293443;
+}
+
+.footer-log ul{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-log ul a{
+    text-decoration: none;
+    padding-left: unset;
+}
+
+.footer .footer-bottom{
+    background-color: #141c27;
+}
+
+.footer-bottom .bottom-container{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.bottom-container .footer-info{
+    color: #a2afbf;
+    font-size: 13px;
+}
+
+.bottom-container a svg path{
+    color: white;
 }
