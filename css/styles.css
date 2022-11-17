@@ -82,7 +82,7 @@
 
 .home{
     margin-top: 15%;
-    background-image: url(/img/envases-reutilizables.jpg),linear-gradient(180deg,#29c4a9 0%,#2b87da 100%);
+    /* background-image: url(/img/envases-reutilizables.jpg),linear-gradient(180deg,#29c4a9 0%,#2b87da 100%); */
     background-color: #7EBEC5;
     background-repeat: no-repeat;
     background-size: cover;
