@@ -355,7 +355,7 @@
 
 .plane::before{
     content: '';
-    background: url(/img/footer-plane-1.png);
+    background: url(./img/footer-plane-1.png);
     position: absolute;
     width: 450px;
     height: 180px;
