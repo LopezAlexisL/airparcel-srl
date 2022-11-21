@@ -5,6 +5,11 @@
 
 /* HEADER */
 
+.header-hight {
+    min-height: fit-content;
+    max-height: 20vh;
+}
+
 .top-header {
     background-color: #004472;
     min-height: fit-content;
@@ -63,6 +68,17 @@
     color: white;
     padding-left: 15px!important;
     padding-right: 15px!important;
+}
+
+.nav-settings a {
+    border-radius: 50px;
+}
+
+.nav-settings .active{
+    background: white;
+    color: #08c1f3!important;
+    opacity: 1!important;
+    border-radius: 50px;
 }
 
 .nav-settings a:hover {
@@ -351,16 +367,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.plane::before{
-    content: '';
-    background: url(./img/footer-plane-1.png);
-    position: absolute;
-    width: 450px;
-    height: 180px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .plane .plane-text {
